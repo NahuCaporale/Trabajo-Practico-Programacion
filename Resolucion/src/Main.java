@@ -10,7 +10,8 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         Fabrica fabrica = new Fabrica();
-        String archivo = "Resolucion/config.txt";
+        //si no funciona con este path, agregar Resolucion/config.txt
+        String archivo = "config.txt";
         int piezasTotales = 0;
         try (BufferedReader texto = new BufferedReader(new FileReader(archivo))) {
             String linea;
